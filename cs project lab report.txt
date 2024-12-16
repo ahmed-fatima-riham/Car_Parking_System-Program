@@ -1,0 +1,24 @@
+Semester Project Documentation
+Semester Project Title:  Event Management System 
+Student Details
+(Fill according to number of team/group members)
+Student NameStudent Reg #Student DegreeStudent-1Muhammad Ahmed Ali2024340MGSStudent-2Fatimah mustneer2024181MGSStudent-3Riham Saqib2024541MGS
+Main Features
+1. Display Available Slots: Shows the current availability of parking slots for cars, bikes, and trucks.
+2. Book a Parking Slot: Allows users to book a parking slot for a specific vehicle type, providing details like owner name, license plate, duration, and valet service.
+3. Release a Parking Slot: Enables users to release a previously booked parking slot.
+Types of Users
+* Parking Lot Manager
+* Vehicle Owners
+Requirements Breakdown
+Feature 1: Display Available Slots
+1.1 Display the total number of slots for each vehicle type. 1.2 Indicate the availability of each slot (occupied or available).
+Feature 2: Book a Parking Slot
+2.1 Prompt the user to enter the vehicle type, owner name, license plate, duration, and valet service preference. 2.2 Check for available slots in the specified vehicle type. 2.3 If a slot is available, assign it to the user and display the booking details, including the total price. 2.4 If no slots are available, display an appropriate message.
+Feature 3: Release a Parking Slot
+3.1 Prompt the user to enter the vehicle type and slot number. 3.2 Check if the specified slot is valid and occupied. 3.3 If valid, release the slot and display a confirmation message. 3.4 If invalid, display an error message.
+Features to Codding Matrix
+(In the following table you will mention the following items for each feature, mention the items in each column for each feature of your application)
+Sr
+no.Feature NameConcept UsedFunctions CreatedVariables / Obj CreatedLine of Code Written1Display Available SlotsArrays, Loopsdisplay_slotsCar_Slots, Bike_Slots, Truck_Slots, TotalC_Slots, TotalB_Slots, TotalT_Slots122Book a Parking SlotArrays, Loops, Conditional StatementsBook_SlotCar_Price, Bike_Price, Truck_Price	253Release a Parking SlotArrays, Conditional StatementsRelease_Slot	10
+
