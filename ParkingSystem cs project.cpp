@@ -79,6 +79,7 @@ int main() {
             else cout << "Invalid vehicle type!" << endl;
             break;
         }
+            
         case 3:{
             string type;
             int slotNum;
@@ -92,12 +93,14 @@ int main() {
             else cout << "Invalid vehicle type!" << endl;
             break;
         }
+            
         case 4:
             cout << "Exiting system. Thank you!" << endl;
             break;
         default:
             cout << "Invalid choice! Please try again." << endl;
         }
+        
     } while (Choice != 4);
     return 0;
 }
